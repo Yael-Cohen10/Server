@@ -1,9 +1,12 @@
 By Yael Cohen
 id: 207485483‏
-Server Using Flask Implementation
+
+##Server Using Flask Implementation
+
 The program implements server using “flask” microframework.
 The server includes the following API’s:
-POST:
+
+#POST:
 Receives a json message from the user and saves the message on the server side - in a database (using sqlite). Post is done by 'AddMessage', The message contains application id, session id, message id, participants list and content, in the following json format: 
 {
         application_id: {application id}
