@@ -1,12 +1,12 @@
 By Yael Cohen
 id: 207485483‏
 
-##Server Using Flask Implementation
+# Server Using Flask Implementation
 
 The program implements server using “flask” microframework.
 The server includes the following API’s:
 
-#POST:
+# POST:
 Receives a json message from the user and saves the message on the server side - in a database (using sqlite). Post is done by 'AddMessage', The message contains application id, session id, message id, participants list and content, in the following json format: 
 {
         application_id: {application id}
@@ -15,7 +15,7 @@ Receives a json message from the user and saves the message on the server side -
         participants: [list of participant names]
         content: {message}
 } 
-GET:
+# GET:
 Returns data from the server side (that is stored in sqlite database) in a json format, according to the url parameters, which should be one of the following: 
 •	Application id = x : 
 •	Session id = x
@@ -23,7 +23,7 @@ Returns data from the server side (that is stored in sqlite database) in a json 
 The program will return the filtered data that corresponds to the requested parameters. Get is done by 'GetMessage'.
 Get request for example: http://127.0.0.1:5000//GetMessage?application_id=2
 
-DELETE:
+# DELETE:
 deletes certain messages according to the requested id from the server side according to the url parameters, which should be one of the following: 
 •	Application id = x : 
 •	Session id = x
