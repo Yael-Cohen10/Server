@@ -38,3 +38,5 @@ deletes certain messages according to the requested id from the server side acco
 
 Delete request for example: http://127.0.0.1:5000//DeleteMessage?application_id=5
 
+#### I was delighted at the opportunity I was given to learn new topics we did not learn. The task challenged me in learning myself, writing the code in a new language I did not know and learning the api topic was challenging and fun! thank you for the opportunity.
+
